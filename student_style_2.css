@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+.trans{
+background-color:rgba(231,229,230, 0.5);}
+
+.menu{
+	display:flex;
+	}
+.logo{
+	flex:1;
+	height:50px;
+	margin-left:10px;}
+.menu_box1{
+	flex:3;
+	height:50px;}	
+.menu_box2{
+	flex:1;
+	height:50px;
+	font-size:30px;
+	padding-left:5px;color:black;}	
+.menu_box3{
+	flex:1;
+	height:50px;
+	font-size:30px;
+	padding-left:5px;
+	color:black;}	
+.menu_box4{
+	flex:1;
+	height:50px;
+	font-size:30px;
+	padding-left:5px;
+	color:black;}	
+.menu_box5{
+	flex:1;
+	height:50px;
+	font-size:30px;
+	padding-left:5px;
+	}
+.menu a{color:black;
+}	
+
+.intro{
+	background-image:url("sky1.jpg");
+	background-repeat:no-repeat;
+	
+	width:1565px;
+	height:700px;
+	margin-top:5px;}
+.intro_box1{
+	display:flex;
+	margin-left:100px;
+	margin-right:100px;
+	height:700px;}
+.intro_box2{
+	flex:3;
+	background-color:rgba(231,229,230, 0.5);
+	padding:5%;
+	margin-top:30px;
+	margin-left:30px;
+	margin-bottom:30px;}
+.intro_box2 h1{
+	
+  font-weight: bold;
+  color: white;
+  font-size:100px;}
+.intro_box3{
+	flex:2;
+	opacity:100%;
+	border-left: 10px solid white;
+	margin-bottom:30px;
+	margin-top:30px;}
+	
+
+
+.edu{
+	display:flex;
+	background-color:#526e8b;
+	margin-right:10px;
+	margin-left:10px;
+    margin-top:10px;	}
+
+.edu_box1{
+	background-color:#efd9c2;
+	flex:2;
+	padding:5%;
+	border-left:3px solid white;}
+.edu_box2{
+	background-color:#526e8b;
+	flex:4;
+	padding:5%;}
+.edu h1{
+	padding:5%;
+  color: white;
+  font-size:50px;}
+
+table, td, th {
+  border: 3px solid white;
+  font-size:30px;
+  padding:5px;
+  background-color:#97acc1;
+  text-align:center;}
+table {
+  width: 100%;
+  border-collapse: collapse;}
+
+
+.vol{
+	display:flex;
+	background-color:#6cc2bd;
+	margin:10px;}
+.vol_box1{
+	background-color:#8ec8d3;
+	flex:4;}
+.vol_box2{
+	background-color:#8ec8d3;
+	flex:2;
+	padding:5%;}
+
+
+.pro{
+	display: grid;
+  grid-template-rows: 1fr 5fr;
+  background-color:#526e8b;
+  margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+  padding:10px;}
+.pro_box1{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap:20px;
+	width:300px;	}
+.pro_box1 a{
+	color:black;
+	text-align:center;
+	}
+.pro_box2{
+	background-color:#fecca3;
+	background-image:url("code.png");
+	background-size:cover;
+	width:450px; height:450px;}
+.pro_box3{
+	background-color:#fecca3;
+	background-image:url("landscape1.png");
+	background-size:cover;
+	width:450px; height:450px;}
+.pro_box4{
+	border:1px solid white;
+	background-image:url("page4 png.png");
+	background-size:cover;
+	width:450px; height:450px;}
+
+
+.contact{
+	display:flex;
+	background-image:url(sky5.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:5%;
+	padding-bottom:5%;}
+.contact_box1{
+	flex:1;
+	background-color:rgba(82,110,139, 0.5);
+	padding-left:5%;
+	padding-top:10px;
+	color:white;}
+.contact_box2{
+	flex:1;
+	background-color:rgba(231,229,230, 0.5);
+    padding-left:5%;
+	padding-top:10px;}
+.contact_box2 h4 a{
+	color:black;
+}
+
+
+.footer{
+	text-align:center;
+}
+
